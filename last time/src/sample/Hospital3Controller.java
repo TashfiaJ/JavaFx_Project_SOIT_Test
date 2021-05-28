@@ -213,7 +213,7 @@ public class Hospital3Controller extends Features {
             System.out.println("Update DONE!!!");
             pnUpDone.toFront();}
         else{
-            incorrectKey.setText("Incorrect Key.");
+            incorrectKey.setText("Incorrect Key");
         }}
         txtICU.clear();
         txtUpKey.clear();
