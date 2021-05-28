@@ -1,0 +1,51 @@
+.pane{
+    background: linear-gradient(to bottom left, #ff699b, #C12157);
+}
+
+.button1{
+    -fx-font-family: 'Roboto';
+    -fx-font-size: 18;
+    -fx-font-weight: 600;
+    -fx-text-allign: center;
+    -fx-text-fill: #ffffff;
+}
+
+.button1:hover{
+    -fx-text-fill: #431FA0;
+}
+
+.button1:pressed{
+    -fx-text-fill: #371897;
+}
+
+.button1:active{
+    -fx-text-fill: #80aff5;
+}
+
+.button2{
+    -fx-font-family: 'Roboto';
+    -fx-font-size: 18;
+    -fx-text-fill: #371897;
+}
+
+.button2:hover{
+    -fx-text-fill: #EB3F79;
+}
+
+.button2:pressed{
+    -fx-text-fill: #371897;
+}
+
+.txtfield{
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+    -fx-font-family: 'Roboto';
+    -fx-font-size: 14;
+}
+
+.label1{
+    -fx-text-fill: black;
+}
+.label1:hover{
+    -fx-text-fill: #431FA0;
+}

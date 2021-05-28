@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="896.0" prefWidth="504.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
+   <children>
+      <Pane prefHeight="896.0" prefWidth="504.0" style="-fx-background-color: linear-gradient(to bottom left, #D5CBEB, #6F4CBB);">
+         <children>
+            <HBox layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="65.0" spacing="10.0">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="25.0" fitWidth="30.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="25.0" fitWidth="30.0" layoutX="40.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </HBox>
+            <ImageView fitHeight="207.0" fitWidth="220.0" layoutX="142.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/icons8_protection_mask_500px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="185.0" layoutY="411.0" prefWidth="122.0" text="SOIT">
+               <font>
+                  <Font name="Lucida Calligraphy Italic" size="48.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnToHospital" layoutX="102.0" layoutY="635.0" mnemonicParsing="false" onAction="#switchToHospital" prefHeight="45.0" prefWidth="300.0" style="-fx-background-color: #D5CBEB; -fx-background-radius: 30; -fx-border-color: #6F4CBB; -fx-border-radius: 30;" styleClass="button2" stylesheets="@fullpackstyling.css" text="Hospital">
+               <font>
+                  <Font name="Roboto" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnToSignUp" layoutX="102.0" layoutY="705.0" mnemonicParsing="false" onAction="#switchToUser" prefHeight="45.0" prefWidth="300.0" style="-fx-background-color: #D5CBEB; -fx-background-radius: 30; -fx-border-color: #6F4CBB; -fx-border-radius: 30;" styleClass="button2" stylesheets="@fullpackstyling.css" text="User">
+               <font>
+                  <Font name="Roboto" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnToAdmin" layoutX="102.0" layoutY="565.0" mnemonicParsing="false" onAction="#switchToAdminSignIn" prefHeight="45.0" prefWidth="300.0" style="-fx-background-color: #D5CBEB; -fx-background-radius: 30; -fx-border-color: #6F4CBB; -fx-border-radius: 30;" styleClass="button2" stylesheets="@fullpackstyling.css" text="Admin">
+               <font>
+                  <Font name="Roboto Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
